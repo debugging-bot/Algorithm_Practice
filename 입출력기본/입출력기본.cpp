@@ -7,13 +7,13 @@ int main() {
 	double area;
 	double perimeter;
 
-	printf("»ç°¢ÇüÀÇ °¡·Î¿Í ¼¼·Î¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä: ");
+	printf("ì‚¬ê°í˜•ì˜ ê°€ë¡œì™€ ì„¸ë¡œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”: ");
 	scanf("%lf %lf", &w, &h);
 
 	area = w * h;
 	perimeter = 2 * (w + h);
 
-	printf("»ç°¢ÇüÀÇ ³ĞÀÌ: %lf, »ç°¢ÇüÀÇ µÑ·¹: %lf \n", area, perimeter);
+	printf("ì‚¬ê°í˜•ì˜ ë„“ì´: %lf, ì‚¬ê°í˜•ì˜ ë‘˜ë ˆ: %lf \n", area, perimeter);
 
 
 	return 0;
