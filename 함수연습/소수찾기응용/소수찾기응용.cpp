@@ -1,18 +1,22 @@
 #include <iostream>
 
-void Count() {
-	
+void NUM(int q) {
+	for (int n = 1; n <= q; n++) { //1부터 q까지의 모든 숫자
+		int x = 0; //약수의 개수 카운트. x가 2이면 소수임
+
+		for (int i = 1; i <= n; i++) { //q사이의 숫자 하나씩 대입 시작
+			if (n % i == 0)
+				x++;
+		 }
+		if (x == 2)
+			std::cout << n << " ";
+	}
 }
 
-void NUM(int x) {
-	for (int i = 1; i <= x; i++) { //1부터 x까지의 모든 숫자
-		int n = 0;
-		for (int K = 1; K <= i; K++)
-			if (i % K == 0)
-				n++;
-			if(n ==2)
-				std::cout << i <<"는 1부터 " << x << "사이의 소수입니다.\n";
-	}
+void Count(int n) {
+	std::cout << "1부터 " << n << "사이의 소수는 ";
+	NUM(n);
+	std::cout << "입니다.";
 }
 
 int main() {
@@ -20,5 +24,5 @@ int main() {
 	std::cout << "정수를 입력하시오: ";
 	std::cin >> n;
 
-	NUM(n);
+	Count(n);
 }
