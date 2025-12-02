@@ -16,7 +16,7 @@ std::cout << "c의 주소 : " << static_cast<void*>(&c) << "\n";
 
 intptr_t로 주소값을 정수로 출력 하거나
 ---
-#include <cstdint>
+#include < cstdint >
 
 std::cout << "c의 주소 : " << reinterpret_cast<intptr_t>(&c) << "\n";
 
