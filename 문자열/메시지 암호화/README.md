@@ -1,3 +1,5 @@
+# 메시지 암호화 하기!
+
 <img width="710" height="369" alt="image" src="https://github.com/user-attachments/assets/56104cb4-991d-4c07-91b1-9f99cb60b2d4" />
 
 cout 은 cahr[]을 만나면 '\0'을 만날 때 까지 자동으로 문자열 전체를 출력한다. 
