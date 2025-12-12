@@ -20,7 +20,7 @@ int main() {
 	//index = 0;
 	for (i = 0; i < ENTRIES; i++)
 	{
-		if (strcmp(dic[i][0], word) == 0)
+		if (strcmp(dic[i][0], word) == 0) //같으면 0을 반환, a가 터 크면 양수, b가 더 크면 음수
 		{
 			std::cout <<  word << " : " << dic[i][1] << "\n";
 			b = 1;
