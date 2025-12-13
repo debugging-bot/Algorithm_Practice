@@ -20,6 +20,7 @@ fflush(stdin); //줄바꿈 문자 제거
 가 필요한 것이다.
 
 ※참고
+
 <img width="669" height="342" alt="image" src="https://github.com/user-attachments/assets/89d49b95-5da1-48cb-b185-cf29042a6975" />
 
 
