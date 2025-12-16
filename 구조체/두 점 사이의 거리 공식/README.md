@@ -5,7 +5,7 @@
 
 루트인 sqry를 사용하기 위해서는 #include <cmath> 가 필요하다.
 
-## sqrt((double)(x * x + y * y) 에서 (double)을 넣은 이유
+## sqrt((double)(x * x + y * y)) 에 (double)이 필요한 이유
 
 -> 정수 연산으로 인한 문제를 미리 방지하기 위해서이다. 
 
