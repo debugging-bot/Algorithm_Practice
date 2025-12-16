@@ -3,6 +3,8 @@
 두 점사이의 거리 공식: 
 <img width="244" height="37" alt="{A9736D3D-12FC-4280-92FE-C8F1CAD32D65}" src="https://github.com/user-attachments/assets/a2b7b943-262d-4432-9068-76862f89963f" />
 
+루트인 sqry를 사용하기 위해서는 #include <cmath> 가 필요하다.
+
 sqrt((double)(x * x + y * y) 에서 (double)을 넣은 이유
 
 정수 연산으로 인한 문제를 미리 방지하기 위해서이다. 
